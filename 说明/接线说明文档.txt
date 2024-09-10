@@ -1,0 +1,17 @@
+A板：
+usart1：                      A9（TX）      A10（RX）
+OLED：                       B6(SCL)         B7(SDA)
+MPU6050:                   B8(SCL)       B9(SDA)
+ads115:                       B13(SCL)       B14(SDA)
+usart2:                        A2(RX)          A3(TX)
+BEEP:                          B1
+LED1：                       A8(red)
+LED2:                         A11(blue)
+ESP8266（USART3）  B10	     B11	
+MQ-2    （ADC1）       A1              
+
+B板：
+usart1：                      A9（TX）      A10（RX）
+ADS1292：                A1(Reset)  A2(Start)  A3（CS）A4(DRDY)  A5(SCK) A6(MISO) A7(MOSI) 
+
+版本说明：优化了跌倒检测的算法，以及又重新整理主函数，加入了一个新的定时器中断（TIM4），在中断不断的采集烟雾数据， 以及判断是否超过烟雾阈值，超过就报警。

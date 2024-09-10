@@ -1,0 +1,5 @@
+产品id： 415609
+设备ID：706441115
+鉴权信息：987987
+access_key: dSLOnwzBBGWr3dDgzz3yJLZG0BvVSpsyp6aYQ/hm/Kc=
+Master-APIkey：fl=6Xu8EpRt7lpnkoUa6OLfiOAE=
